@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+        label{
+            width: 100px;
+            display: inline-table;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 align="center">Register new Staff</h1>
+
+    <form id="Form"action="a.php" method="get" align="left">
+        <label align="left">UserName:</label> 
+        <input type="text" name="uname" placeholder="UserName">
+        <br><br>
+        <label>Password: </label>
+        <input type="password" name="pass" placeholder="Password">
+        <br><br>
+        <label>Full Name: </label>
+        <input type="text" name="FullName" placeholder="FullName">
+        <br><br>
+        <label>Email: </label>
+        <input type="email" name="mail" placeholder="Email">
+        <br><br>
+        <label>Phone Number</label>
+        <input type="number" name="phone" placeholder="phone Number">
+        <br><br>
+        <label>Address: </label>
+        <input type="text" name="address" placeholder="Address">
+        <br><br>
+        <label>Designation</label>
+        <select>
+            <option>--Select--</option>
+            <option value="GeneralManager">GeneralManager</option>
+            <option value="CEO">CEO</option>
+            <option value="Assistant">Assistant</option>
+        </select>
+        <label>Other:</label><input type="text" value="other" placeholder="other">
+        <br><br>
+        <label>DEpartment</label>
+        <select>
+            <option>--Department--</option>
+            <option value="Management">Management</option>
+            <option value="hr">hr</option>
+            
+        </select>
+        <br><br>
+        <label>Hotel Branch:</label>
+        <select>
+            <option value="Banglore">Banglore</option>
+            <option value="dharwad">Dharwad</option>
+        </select>
+        <br><br>
+        <input type="submit"><input type="reset">
+    </form>
+</body>
+</html>
