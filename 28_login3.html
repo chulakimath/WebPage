@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_4</title>
+    <style type="text/css">
+        body{
+            background-color:#9224a8;
+            display: flex;
+            justify-content: center;
+            margin-top: 15%;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            background-color: aliceblue;
+            width: 300px;
+        }
+        .main #head {
+            background-color: rgb(73, 23, 88);
+            color: azure;
+            font-size: 25px;
+            height: 50px;
+            padding-top: 10px;
+           
+
+        }
+        form .mail{
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        form .pass{
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        form .button{
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+            gap: 30px;
+        }
+        form input[type=button]{
+            background-color: #9224a8;
+            border: none;
+            height: 30px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            width: 60px;
+        }
+       a{
+        color: purple;
+        text-decoration: none;
+        align-content: baseline;
+       
+       }
+       input[type=text]{
+        background: transparent;
+        height: 30px;
+        width: 280px;
+        border-width: 1px;
+        border-color: #9224a8;
+       }
+       input[type=password]{
+        background: transparent;
+        height: 30px;
+        width: 280px;
+        border-width: 1px;
+        border-color: #9224a8;
+       }
+  
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="head">
+            <header>Login Form</header>
+        </div>
+        <div>
+            <form>
+                <div class="mail"><span><input type="text" placeholder="Email or User Name"></span><span></span></div>
+                <div class="pass"><span><input type="password" placeholder="password"></span><span></span></div>
+                <div class="button"><span><input type="button" value="Sign In"></span><span id="fg"><a href="">Forgotpassword?</a></span></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login 2</title>
+    <style type="text/css">
+        body{
+            background-image: linear-gradient(to right,#ffeaab,hsl(43, 74%, 46%));
+            display: flex;
+            justify-content: center;
+            padding-top: 10%;
+        }
+        .for{
+            background-color: azure; 
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 400px;
+            box-shadow: 0px 5px 5px 2px;
+        }
+        .head header{
+            font-size: 25px;
+            color: beige;
+            text-align: center;
+            font-weight: 600;
+        }
+        .head p{
+            font-size: 18px;
+            color: beige;
+            text-align: center;
+        }
+        .for header{
+            height:30px;
+            text-align: center;
+            display: flex;
+            width: fit-content;
+            background-color: rgb(53, 219, 53);
+            padding-left: 15px;
+            padding-right: 5px;
+            margin-bottom: 20px;
+            line-height: 30px;
+        }
+        form input[type=text]{
+            background: transparent;
+            border-width: 1px;
+            border-color: green;
+            height: 25px;
+            width: 100%;
+            border-radius: 3px;
+            margin: 20;
+            margin-bottom: 20px;
+        }
+        form input[type=password]{
+            background: transparent;
+            border-width: 1px;
+            border-color: green;
+            height: 25px;
+            width: 100%;
+            border-radius: 3px;
+            margin: 20;
+            margin-bottom: 20px;
+        }
+        .inp{
+            margin-left: 10px;
+            margin-right: 20px;
+
+        }
+        .pass{
+            margin-left: 10px;
+            margin-right: 20px;
+
+        }
+        .but{
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+        }
+        form input[type=submit]{
+            background-color: green;
+            border: none;
+            color: beige;
+            width: 70px;
+            height: 35px;
+        }
+        ::placeholder{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+        <header>CSS Simple Login Form</header>
+        <p>Easy to implement and manage</p>
+        </div>
+        <div class="for">
+            <div>
+                <header>Lets Login</header>
+            </div>
+            <form action="a.php" method="get">
+                <div class="inp">
+                    <input type="text" name="uname" placeholder="User Name">
+                </div>
+                <div class="pass">
+                    <input type="password" name="pass" placeholder="Password">
+                </div>
+                <div class="but">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

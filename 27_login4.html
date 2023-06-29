@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form4</title>
+    <style type="text/css">
+        body{
+            background-image: url('images/block_black.jpg');
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .main{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .leftside .h1{
+            font-size: 25px;
+            color: azure;
+            margin-bottom: 10px;
+            padding-top: 50px;
+           
+        }
+        .leftside .h2{
+            font-size: 25px;
+            color: azure;
+           
+            margin-bottom: 20px;
+        }
+        .leftside .ds{
+            display: flex;
+            flex-direction: column;
+         
+        }
+        .leftside #sp1{
+            color: #968e8e;
+            font-size: 18px;
+        }
+        .leftside #sp2{
+            color: #0c8308;
+            font-size: 25px;
+
+        }
+        .leftside .ds2{
+            display: flex;
+            flex-direction: column;
+       
+            margin-top: 20px;
+        }
+        .leftside #sp3{
+            color: #968e8e;
+            font-size: 18px;
+        }
+        .leftside #sp4{
+            color: #0c8308;
+            font-size: 25px;
+
+        }
+
+        .leftside .ds3{
+            display: flex;
+            flex-direction: column;
+
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        .leftside #sp5{
+            color: #968e8e;
+            font-size: 18px;
+        }
+        .leftside #sp6{
+            color: #0c8308;
+            font-size: 25px;
+
+        }
+        .rightside{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            background-color: white;
+            height: fit-content;
+            width: 400px;
+            
+
+        }
+        .rightside input[type=text]{
+            background-color: rgb(221, 218, 218);
+            border-radius: 3px;
+            margin-bottom: 20px;
+            margin-top: 50px;
+            height: 25px;
+            border: none;
+            width: 370px;
+            
+        }
+        .rightside input[type=mail]{
+            background-color: rgb(221, 218, 218);
+            border-radius: 3px;
+            margin-bottom: 20px;
+            height: 25px;
+            border: none;
+            width: 370px;
+            
+        }
+        .rightside textarea{
+            background-color: rgb(221, 218, 218);
+            border-radius: 3px;
+            margin-bottom: 20px;
+            height: 50px;
+            border: none;
+            
+            width: 370px;
+            
+        }
+        input[type=submit]{
+            width: 370px;
+            border: none;
+            height: 30px;
+            background-color: rgb(32, 255, 32);
+            margin-bottom: 50px;
+           
+        }
+        ::placeholder{
+            color:rgb(109, 91, 91);
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="leftside">
+          <div>
+                <span>
+                    <Header class="h1">Do You Have any project ?</Header>
+                </span>
+                <span>
+                    <header class="h2">Let's Talk</header>
+                </span>
+            </div>
+            <div class="ds">
+                <span id="sp1">Design For</span>
+                <span id="sp2">121 Rock Strret 21 Avenue new York xyz 2103-9000</span>
+            </div>
+            <div class="ds2">
+                <span id="sp3">Phone </span>
+                <span id="sp4">+10(67)345-262</span>
+            </div>
+            <div class="ds3">
+                <span id="sp5">contact Our manager </span>
+                <span id="sp6">immersive@gmail.com</span>
+            </div>
+        </div>
+        <div class="rightside">
+            <form action="a.php" method="get">
+            <div class="inp1">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="inp2">
+                <input type="mail" placeholder="Enter Your Email Address">
+            </div>
+            <div class="inp3">
+                <textarea placeholder="Enter Your Message"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

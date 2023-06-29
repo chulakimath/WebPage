@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25_form_01</title>
+    <style type="text/css">
+        body{
+            background-color: pink;
+        }
+        header{
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #forms{
+            background-color: aqua;
+            width: 70%;
+            margin: auto;
+            flex-wrap: nowrap;
+
+        }
+        label{
+            margin-left:45px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            text-justify: auto;
+
+        }
+        input[type=text]{
+           margin: auto;
+           display: block;
+           border-color: green;
+           margin-top: 10px;
+           height: 30px;
+            
+        }
+        input[type=password]{
+           margin: auto;
+           display: block;
+           border-color: green;
+           margin-top: 10px;
+           height: 30px;
+            
+            
+        }  input[type=submit]{
+           margin: auto;
+           display: block;
+           font-weight: 700;
+           background-color: green;
+           border: none;
+           border-radius: 3px;
+           height: 30px;
+            
+        }
+        #uname{
+            width: 90%;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        #pass{
+            width: 90%;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        #login{
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="sec">
+        <div>
+            <header>Student Login Form</header>
+        </div>
+        <form action="a.php" method="get">
+        <div id="forms">
+            <div><label>User Name</label></div>
+            <div><input type="text" name="uname" id="uname" placeholder="User Name"></div>
+            <div><label>Password</label></div>
+            <div ><input type="password" name="pass" id="pass" placeholder="password"></div>
+            <div><input type="submit" id="login" value="Login"></div>
+            <div>
+                <input type="checkbox" name="cbox"><label>Remember Me</label>
+                <span><input type="button" name="cancle" value="cancle"></span>
+                <span><label>Forgot <a href="forget.html"> password</a></label></span>
+            </div>
+        </div>
+    </form>
+    </section>
+    
+</body>
+</html>

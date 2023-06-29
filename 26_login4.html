@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login4</title>
+    <style type="text/css">
+        ::placeholder{
+            color: antiquewhite;
+        }
+        body{
+            background-color: white;
+            background-image: linear-gradient(to bottom right,#98bfe6,#7968cb);
+        }
+        header{
+            font-size: 25px;
+            margin-left: 15px;
+            margin-right:15px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        input[type=text]{
+            background: transparent;
+            border:none;
+            border-bottom: 1px solid #b19494;
+            margin-bottom: 25px;
+            margin-left: 15px;
+            margin-right:15px;
+            height: 25px;
+        }
+        input[type=mail]{
+            background: transparent;
+            border:none;
+            border-bottom: 1px solid #b19494;
+            margin-bottom: 30px;
+            margin-left: 15px;
+            margin-right:15px;
+        }
+        input[type=tel]{
+            background: transparent;
+            border:none;
+            border-bottom: 1px solid #b19494;
+            margin-bottom: 30px;
+            margin-left: 15px;
+            margin-right:15px;
+        }
+        select{
+            background: transparent;
+            border:none;
+            border-bottom: 1px solid #b19494;
+            
+            width: 40%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right:15px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .sec1{
+            background-color: #ffff;
+        }
+        .sec2{
+            background-color:#463acc;
+            color: wheat;
+            
+        }
+        .butt1{
+            border: none;
+            border-radius: 8px;
+            margin: 15px;
+            font-weight: 400;
+            font-size: 15px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div  class="container">
+    <div class="sec1">
+        <form>
+        <div><header>General Information</header></div>
+        <div>
+            <select>
+                <option>Title</option>
+                <option value="mr">mr</option>
+                <option value="ms">ms</option>
+            </select>
+        </div>
+        <div>
+            <span><input type="text" name="name" id="name" placeholder="First Name"></span>
+            <span><input type="text" name="lname" id="lname" placeholder="Last Name"></span>
+        </div>
+        <div>
+            <select>
+                <option>Position</option>
+                <option>Developer</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" name="company" placeholder="company">
+        </div>
+        <div>
+            <span><input type="text" placeholder="Business Area"</span>
+            <span>
+                <select>
+                    <option>Employees</option>
+                </select>
+            </span>
+        </div>
+    </div>
+
+    <div class="sec2">
+    <div>
+        <header>Contact details</header>
+    </div>
+    <div>
+        <input type="text" name="street" placeholder="street + nr">
+    </div>
+    <div>
+        <input type="text" name="addition" placeholder="additional Information">
+    </div>
+    <div>
+        <span><input type="text" placeholder="zip Code" name="zipcode"></span>
+        <span>
+            <select name="place" id="place">
+                <option>place</option>
+                <option value="dharwad">dharwad</option>
+
+            </select>
+        </span>
+    </div>
+    <div>
+        <select>
+            <option>Country</option>
+            <option value="india">India</option>
+        </select>
+    </div>
+    <div>
+        <span><input type="text" name="countryCode" placeholder="Code+"></span>
+        <span><input type="tel" name="phoneNumber" placeholder="phone Number"></span>
+    </div>
+    <div>
+        <input type="mail" name="mail" id="mail" placeholder=" your Email">
+    </div>
+    <div>
+        <span>
+            <input type="checkbox" >
+        </span>
+        <span>Ido Accept the <a href="">Terms and conditions</a>of your site</span>
+    </div>
+    <div>
+        <input type="submit" value="Register" class="butt1">
+    </div>
+    </div>
+</form>
+</div>
+</body>
+</html>
